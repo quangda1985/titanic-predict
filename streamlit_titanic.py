@@ -100,7 +100,7 @@ elif choice =='Build Project':
 
 elif choice =='New Prediction':
 	st.subheader('Make new Prediction')
-	st.write('##### Inut/Select data')
+	st.write('##### Input/Select data')
 	name = st.text_input('Name:')
 	sex = st.radio('Sex',options=['Male','Female'])
 	age = st.slider('Age',1,100,1)
